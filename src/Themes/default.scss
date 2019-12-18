@@ -1,0 +1,17 @@
+// Override default variables before the import
+$body-bg: #ecf4fd;
+$warning: #ffc107;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+.form-control:focus {
+  border-color: $warning;
+  box-shadow: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #3f51b5;
+  border-color: #3f51b5;
+}
